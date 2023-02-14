@@ -1,0 +1,1255 @@
+* {
+    margin: 0rem;
+    padding: 0rem;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    color: #ffffff;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #0f0f10;
+}
+
+/* .nav-bar {
+    background: aqua;
+} */
+
+.beats_logo {
+    display: flex;
+    align-items: flex-start;
+}
+
+.mainlogo {
+    margin: 2rem 0rem 0rem 15rem;
+}
+
+.upperheadset {
+    margin: 0rem 0rem 0rem 6rem;
+    width: 11rem;
+}
+
+.menulist {
+    display: flex;
+    align-items: center;
+    /* background: red; */
+    color: white;
+    justify-content: space-around;
+    list-style: none;
+    /* margin: 0rem; */
+    width: 29rem;
+    font-size: 1rem;
+    margin: -24rem 0rem 0rem 51rem;
+    position: absolute;
+    cursor: pointer;
+}
+
+.shop-btn {
+    padding: 12px 25px 12px 25px;
+    border-radius: 0.5rem;
+    background: #1e1e21;
+    color: white;
+    text-align: center;
+    border: none;
+}
+
+.mid_sec {
+    display: flex;
+    flex-direction: column;
+    /* background: bisque; */
+    width: 39rem;
+    justify-content: center;
+    height: 20rem;
+    align-items: flex-start;
+    margin: -12rem 0rem 0rem 43rem;
+}
+
+.one-ear {
+    position: absolute;
+    /* background: burlywood; */
+    margin: -22rem 0rem 0rem 2rem;
+}
+
+.beats3 {
+    font-size: 3rem;
+    margin: 2rem 0rem 0rem 0rem;
+    line-height: 6rem;
+    color: white;
+}
+
+.overview {
+    font-size: 1.5rem;
+    color: white;
+    line-height: 2.5rem;
+}
+
+.description {
+    line-height: 1.5rem;
+    font-size: 1rem;
+    color: white;
+}
+
+.btn {
+    display: flex;
+    width: 16rem;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 1rem 0rem 0rem 0rem;
+    gap: 1rem;
+    padding: 1rem 0rem 1rem 0rem;
+    background-color: #1e1e21;
+    ;
+    color: white;
+    border: none;
+    border-radius: 1rem;
+}
+
+/* 
+.buy-button {} */
+
+.addingtobag {
+    font-size: 1rem;
+}
+
+.N399K {
+    font-size: 1rem;
+}
+
+.social {
+    /* background: rebeccapurple; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 59rem;
+    margin: 8rem 0rem 0rem 18rem;
+}
+
+.specification {
+    display: flex;
+    /* background: rebeccapurple; */
+    align-items: center;
+    justify-content: center;
+    width: 63rem;
+    margin: 8rem 0rem 0rem 15rem;
+    padding: 1rem 0rem 1rem 0rem;
+}
+
+
+.features {
+    /* background: darkcyan; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 3rem 0rem 0rem 0rem;
+    gap: 3rem;
+    color: white;
+}
+
+.featurespara {
+    font-size: 12px;
+}
+
+.featurespara>span {
+    font-size: 10px;
+}
+
+#specsicons {
+    width: 0.7rem;
+}
+
+#specsicons-charger {
+    width: 1rem;
+}
+
+.bluetooth {
+    margin: 0rem 0rem 0rem -24rem;
+    /* background-color: antiquewhite; */
+}
+
+.battery {
+    margin: 0rem 0rem 0rem -29rem;
+    /* background-color: greenyellow; */
+}
+
+.charger {
+    margin: 0rem 0rem 0rem -26rem;
+}
+
+.mic {
+    margin: 0rem 0rem 0rem -17rem;
+}
+
+.specsImage {
+    position: absolute;
+    margin: -22rem 0rem 0rem 46rem;
+}
+
+.case {
+    height: 36rem;
+}
+
+.caselogo {
+    display: flex;
+    /* background: darkseagreen; */
+    margin: 4rem 0rem 0rem 0rem;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 0rem 1rem 0rem;
+}
+
+.casedescribe {
+    display: flex;
+    flex-direction: column;
+    margin: 12rem 0rem 0rem 48rem;
+    gap: 19px;
+    font-size: 13px;
+}
+
+.casepara {
+    line-height: 1.5rem;
+}
+
+.casebtn {
+    background: #1e1e21;
+    width: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 0rem 1rem 0rem;
+    justify-content: space-evenly;
+    border: none;
+    border-radius: 0.7rem;
+}
+
+.caseimage {
+    margin: 3rem 0rem 0rem 13rem;
+    width: 17rem;
+    position: absolute;
+}
+
+.buynowsection {
+    background: #181a1b;
+    display: flex;
+    margin: 6rem 15rem 0rem 15.99rem;
+    align-items: center;
+    justify-content: space-between;
+    width: 64rem;
+    border-radius: 1.1rem;
+    padding: 2rem 0rem 2rem 0rem;
+    /* position: absolute; */
+    height: 20rem;
+}
+
+.buynowsec {
+    /* background: aqua; */
+    margin: 0rem 0rem 0rem 8rem;
+    display: flex;
+    flex-direction: column;
+    width: 27rem;
+    gap: 0.9rem;
+}
+
+.buynowheading {
+    font-size: 1.2rem;
+}
+
+.buynow {
+    display: flex;
+    width: 11rem;
+    gap: 2rem;
+    flex-direction: row;
+    margin: 0rem 0rem 0rem 0rem;
+    padding: 0.3rem 0rem 0.3rem 0rem;
+    border: none;
+    border-radius: 0.5rem;
+    background-color: #0f0f10;
+    justify-content: center;
+}
+
+.foldedheadset {
+    margin: 0rem 0rem 0rem 35rem;
+    position: absolute;
+}
+
+.chooselogo {
+    /* background: tomato;  */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* width: 15rem; */
+    margin: 7rem 0rem 7rem 0rem;
+    padding: 1rem 0rem 1rem 0rem;
+}
+
+.choice {
+    /* background: blueviolet; */
+    display: flex;
+    flex-wrap: wrap;
+    width: 63rem;
+    margin: 0rem 0rem 0rem 16rem;
+}
+
+.firstchoice {
+    background: #181a1b;
+    width: 12rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem 0rem 0rem 3rem;
+    padding: 1rem 0rem 1rem 0rem;
+    border-radius: 1.3rem;
+    /* height: 8rem;*/
+}
+
+.firstheadset {
+    width: 5rem;
+    margin: -10rem 0rem 0rem 0rem;
+    padding: 1rem 0rem 0rem 0rem;
+    position: absolute;
+}
+
+.insidechoicepara {
+
+    margin: 7rem 0rem 0rem 0rem;
+    /* background: darkmagenta; */
+    width: 9rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 0.9rem;
+
+}
+
+.N299K {
+    /* background: red;  */
+    width: 5rem;
+    margin: 3rem 0rem 0rem -5.1rem;
+    font-size: 0.7rem;
+}
+
+.footer {
+    /* background: teal; */
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    margin: 0rem 0rem 0rem 4rem;
+    width: 88rem;
+    padding: 8rem 0rem 8rem 10rem;
+}
+
+.subscribetoemailinput {
+    width: 18rem;
+    height: 3rem;
+    border: transparent;
+    border-radius: 0.5rem;
+    padding-left: 1rem;
+    background: #181A1B;
+}
+
+.subscribetoemailinput:focus {
+    outline: none;
+}
+
+.subscribebtn {
+    height: 2.5rem;
+    border: transparent;
+    border-radius: 0.5rem;
+    padding-left: 1rem;
+    background: black;
+    margin: 0rem 0rem 0rem -9.3rem;
+    width: 9rem;
+}
+
+.sendemailarrow {
+    margin: 1rem 0rem 0rem -8rem;
+    position: absolute;
+}
+
+.footerprouctlist>ul>li {
+    list-style: none;
+    color: #bdc0c2;
+
+}
+
+.productlist {
+    font-size: 0.8rem;
+    line-height: 2rem;
+    cursor: pointer;
+}
+
+.footerprouctlist>.productlist>.productboldstyle {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: white;
+
+}
+
+.support>.supportlist>.supportboldstyle {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: white;
+
+}
+
+.supportlist {
+    font-size: 0.8rem;
+    line-height: 2rem;
+    cursor: pointer;
+}
+
+.support>ul>li {
+    list-style: none;
+    color: #bdc0c2;
+}
+
+.iconlist {
+    display: flex;
+    gap: 1rem;
+    margin: 1rem 0rem 0rem 0rem;
+    cursor: pointer;
+}
+
+.icon>ul>li {
+    list-style: none;
+}
+
+.returntotoparrow {
+    cursor: pointer;
+}
+
+
+/* media queries started */
+@media (max-width:1024px) {
+    body{
+        overflow-x: hidden;
+    }
+
+    .features {
+        margin: 3rem 0rem 0rem 29rem;
+    }
+
+    .specsImage {
+        margin: -24rem 0rem 0rem 45rem;
+    }
+
+    .caselogo {
+        margin: 4rem 0rem 0rem 27rem;
+    }
+
+    .casepara {
+        font-size: 1rem;
+        /* background: red; */
+        width: 17rem;
+    }
+
+    .chooselogo {
+        margin: 7rem 0rem 7rem 30rem;
+    }
+}
+
+@media(max-width:768px) {
+    body{
+        overflow-x: hidden;
+    }
+    
+    .overview {
+        font-size: 2rem;
+        line-height: 4rem;
+    }
+
+    .beats3 {
+        margin: 19rem 0rem 0rem 0rem;
+
+    }
+
+    .addingtobag {
+        font-size: 1.5rem;
+    }
+
+    .N399K {
+        font-size: 1.5rem;
+    }
+
+    .btn {
+        margin: 3rem 0rem 0rem 0rem;
+        width: 19rem;
+    }
+
+    .social {
+        margin: 28rem 0rem 0rem 18rem;
+    }
+
+    .description {
+        line-height: 2.9rem;
+        font-size: 2rem;
+    }
+
+
+    .features {
+        margin: 3rem 0rem 0rem 45rem;
+    }
+
+    #specsicons {
+        width: 1.5rem;
+    }
+
+    #specsicons-charger {
+        width: 1.5rem;
+    }
+
+    .battery {
+        margin: 0rem 0rem 0rem -31rem;
+    }
+
+    .charger {
+        margin: 0rem 0rem 0rem -28rem;
+    }
+
+    .featurespara {
+        font-size: 18px;
+    }
+
+    .featurespara>span {
+        font-size: 18px;
+    }
+
+    .specsImage {
+        margin: -28rem 0rem 0rem 45rem;
+    }
+
+    .caselogo {
+        margin: 11rem 0rem 0rem 45rem;
+    }
+
+    .caseimage {
+        margin: 3rem 0rem 0rem 12rem;
+    }
+
+    .casedescribe {
+        margin: 12rem 0rem 0rem 44rem;
+    }
+
+    .casepara {
+        font-size: 2rem;
+        /* background: red; */
+        width: 35rem;
+        line-height: 2.5rem;
+    }
+
+    .casebtn {
+        font-size: 1.5rem;
+        width: 14rem;
+
+    }
+
+    .buynowsection {
+        margin: 17rem 15rem 0rem 15.99rem;
+    }
+
+    .buynowsec {
+        margin: 0rem 0rem 0rem 12rem;
+    }
+
+    .buynowheading {
+        font-size: 1.8rem;
+    }
+
+    .buynow {
+        font-size: 2rem;
+        width: 15rem;
+        align-items: center;
+        margin: 0.5rem 0rem 0rem 0rem;
+    }
+
+    .chooselogo {
+        margin: 7rem 0rem 7rem 45rem;
+    }
+
+    .footer {
+        margin: 0rem 0rem 0rem 0rem;
+    }
+
+    .insidechoicepara {
+        font-size: 2rem;
+    }
+
+    .N299K {
+        margin: 3rem 0rem 0rem -8.1rem;
+        font-size: 1.3rem;
+    }
+
+    .supportlist {
+        font-size: 1.2rem;
+        line-height: 3rem;
+    }
+
+    .productlist {
+        font-size: 1.2rem;
+        line-height: 3rem;
+    }
+
+    .subscribetoemailinput {
+        width: 19rem;
+        height: 4rem;
+        font-size: 1.2rem;
+    }
+
+    .subscribebtn {
+        font-size: 1rem;
+        font-size: 1rem;
+    }
+
+    .sendemailarrow {
+        margin: 1.5rem 0rem 0rem -8.2rem;
+    }
+
+    .footerprouctlist>.productlist>.productboldstyle {
+        font-size: 1.9rem;
+    }
+
+    .support>.supportlist>.supportboldstyle {
+        font-size: 1.9rem;
+    }
+
+    .footericon {
+        width: 3rem;
+    }
+}
+
+@media(max-width:426px) {
+
+    /* *{
+        margin: 0rem;
+        padding: 0rem;
+        box-sizing: border-box;
+    } */
+    body{
+        overflow-x: hidden;
+    }
+    .menulist {
+        width: 78rem;
+        font-size: 3rem;
+        margin: 7rem 0rem 0rem 14rem;
+    }
+
+    .shop-btn {
+        font-size: 2.5rem;
+
+    }
+
+    .beats_logo {
+        margin: 0rem 0rem 0rem -2rem;
+        width: 106rem;
+        /* background: red; */
+        height: 7rem;
+    }
+
+    .mainlogo {
+        margin: 3rem 0rem 0rem 52rem;
+        width: 5rem;
+    }
+
+    .upperheadset {
+        margin: 28rem 0rem 0rem 14rem;
+        width: 20rem;
+        /* background: red;*/
+    }
+
+    .one-ear {
+        margin: -22rem 0rem 0rem -1rem;
+    }
+
+    .mid_sec {
+        margin: 27rem 0rem 0rem 14rem;
+    }
+
+    .social {
+        margin: 41rem 0rem 0rem 11rem;
+        width: 84rem;
+    }
+
+    .socialicons {
+        width: 15rem;
+    }
+
+    .specification {
+        margin: 24rem 0rem 0rem 20rem;
+
+    }
+
+    .Specslogo {
+        width: 29rem;
+    }
+
+    .features {
+        margin: 3rem 0rem 0rem 45rem;
+        gap: 5rem;
+    }
+
+    .bluetooth {
+        margin: 0rem 0rem 0rem -11rem;
+    }
+
+    #specsicons {
+        width: 3.5rem;
+    }
+
+    .featurespara {
+        font-size: 43px;
+        /* background: red; */
+        width: 29rem;
+    }
+
+    .featurespara>span {
+        font-size: 41px;
+    }
+
+    #specsicons-charger {
+        width: 5.5rem;
+    }
+
+    /* .charger {
+        margin: 0rem 0rem 0rem -28rem;
+    } */
+    .mic {
+        margin: 0rem 0rem 0rem -10rem;
+    }
+
+    .specsImage {
+        margin: -60rem 0rem 0rem 56rem;
+        width: 38rem;
+    }
+
+
+
+    .caselogo {
+        margin: 23rem 0rem 0rem 45rem;
+        width: 29rem;
+        margin: 11rem 0rem 0rem 38rem;
+    }
+
+    .case {
+        margin: 27rem 0rem 0rem -1rem;
+        /* background: aquamarine; */
+        width: 106rem;
+    }
+
+    .caseimg {
+        width: 29rem;
+    }
+
+    .caseimage {
+        margin: 5rem 0rem 0rem 6rem;
+        width: 31rem;
+    }
+
+    .casedescribe {
+        margin: 21rem 0rem 0rem 47rem;
+    }
+
+    .casepara {
+        font-size: 48px;
+        /* background: rebeccapurple; */
+        width: 51rem;
+        line-height: 4rem;
+    }
+
+    .buynowsection {
+        margin: 39rem 15rem 0rem 16.99rem;
+        width: 76rem;
+        height: 28rem;
+        padding: 4rem 0rem 4rem 0rem;
+    }
+
+    .buynowsec {
+        margin: 0rem 0rem 0rem 3rem;
+    }
+
+    .buynowheading {
+        font-size: 2.83rem;
+        /* background: red; */
+        width: 37rem;
+    }
+
+    .buynowpara {
+        font-size: 2.6rem;
+        /* background: aquamarine; */
+        width: 30rem;
+        height: 6rem;
+    }
+
+    .buynow {
+        padding: 1rem 0rem 1rem 0rem;
+        font-size: 3rem;
+        width: 26rem;
+    }
+
+    .casebtn {
+        width: 23rem;
+        font-size: 3rem;
+        margin: 2rem 0rem 0rem 0rem;
+    }
+
+    .case-img {
+        width: 4rem;
+    }
+
+    .buynowshoppingbagicon {
+        width: 3rem;
+    }
+
+    .foldedheadset {
+        width: 31rem;
+        margin: 0rem 0rem 0rem 42rem;
+    }
+
+    .chooselogo {
+        /* background: red; */
+        width: 78rem;
+        margin: 13rem 0rem 13rem 16rem;
+    }
+
+    .choose {
+        width: 44rem;
+        margin: 7rem 0rem 0rem -1rem;
+        padding: 2rem 0rem 2rem 0rem;
+
+    }
+
+    .choice {
+        width: 82rem;
+        margin: 0rem 0rem 0rem 14rem;
+    }
+
+    .firstchoice {
+        width: 33rem;
+        margin: 9rem 0rem 7rem 5rem;
+        height: 30rem;
+    }
+
+    .firstheadset {
+        width: 16rem;
+        margin: -28rem 0rem 0rem 0rem;
+    }
+
+    .insidechoicepara {
+        font-size: 3.5rem;
+        margin: 18rem 0rem 0rem 0rem;
+        width: 22rem;
+        height: 17rem;
+
+    }
+
+    .N299K {
+        margin: 6rem 0rem 0rem -23.1rem;
+        font-size: 2.3rem;
+    }
+
+    .shopbagchoose {
+        width: 3rem;
+    }
+
+    #last-headset-in-choose-section {
+        background: rosybrown;
+        margin-left: 23rem;
+    }
+
+    #darkredbackground {
+        background-color: darkred;
+    }
+
+    #lightorangebackground {
+        background-color: #AE8F02;
+    }
+
+    #bluebackground {
+        background-color: #0049C8;
+    }
+
+    .productlist {
+        display: flex;
+        flex-direction: column;
+        margin: 8rem 0rem 0rem 26rem;
+        position: absolute;
+        font-size: 3rem;
+        line-height: 5rem;
+
+    }
+
+    .support {
+        margin: 0rem 0rem 0rem -2rem;
+
+    }
+
+    .supportlist {
+        display: flex;
+        flex-direction: column;
+        margin: 8rem 0rem 0rem 61rem;
+        font-size: 3rem;
+        line-height: 5rem;
+    }
+
+    .footerprouctlist>.productlist>.productboldstyle {
+        font-size: 4rem;
+        line-height: 6rem;
+    }
+
+    .support>.supportlist>.supportboldstyle {
+        font-size: 4rem;
+        line-height: 6rem;
+    }
+
+    .footer {
+        flex-direction: column;
+        margin: 31rem 0rem 36rem 0rem;
+        /* position: inherit; */
+        /* background: beige; */
+        width: 106rem;
+    }
+
+    .bottombeatslogo>img {
+        width: 5rem;
+        position: absolute;
+        margin: 9rem 0rem 0rem 1rem;
+    }
+
+    .iconlist {
+        /* flex-direction: row; */
+        margin: 14rem 0rem 0rem 13rem;
+        position: absolute;
+        /* background: red; */
+        /* flex-wrap: wrap; */
+        width: 58rem;
+        justify-content: center;
+        align-items: center;
+        gap: 9rem;
+        /* row-gap: 0rem; */
+        column-gap: rem;
+    }
+
+    .footericon {
+        width: 6rem;
+    }
+
+    .subscribetoemailinput {
+        position: absolute;
+        width: 67rem;
+        font-size: 4rem;
+        padding: 4rem 2rem 4rem 2rem;
+        margin: -55rem 0rem 0rem 9rem;
+    }
+
+    .subscribebtn {
+        font-size: 3rem;
+        width: 27rem;
+        height: 8rem;
+        position: absolute;
+        margin: -55rem 0rem 0rem 49rem;
+
+    }
+
+    .sendemailarrow {
+        width: 3.3rem;
+        margin: -52.5rem 0rem 0rem 51rem;
+    }
+
+    .bottomuparrow {
+        position: absolute;
+        width: 8rem;
+        margin: 27rem 0rem 0rem 39rem;
+
+    }
+}
+
+@media (max-width:426px) and (min-width:375px) {
+    body{
+        overflow-x: hidden;
+    }
+    
+    .beats_logo {
+        margin: 0rem 0rem 0rem -9rem;
+    }
+
+    .mainlogo {
+        margin: 4rem 0rem 0rem 52rem;
+        position: absolute;
+    }
+
+    .menulist {
+        margin: 6rem 0rem 0rem 9rem;
+    }
+
+    .mid_sec {
+        margin: 15rem 0rem 0rem 4rem;
+        /* background: red; */
+        width: 85rem;
+        height: 69rem;
+        gap: 2.3rem;
+
+    }
+
+    .one-ear {
+        margin: -32rem 0rem 5rem 0rem;
+        width: 42rem;
+    }
+
+    .upperheadset {
+        margin: 32rem 0rem 0rem 72rem;
+        width: 27rem;
+        /* background: bisque; */
+    }
+
+    .description {
+        /* background: aquamarine; */
+        font-size: 3rem;
+        width: 53rem;
+        line-height: 4.2rem;
+    }
+
+    .one-ear {
+        margin: -37rem 0rem 0rem 0rem;
+        width: 42rem;
+    }
+
+    .beats3 {
+        font-size: 6rem;
+        margin: 31rem 0rem 0rem 0rem;
+    }
+
+    .overview {
+        font-size: 4rem;
+        line-height: 4rem;
+    }
+
+    .social {
+        margin: 41rem 0rem 0rem 5rem;
+        width: 84rem;
+    }
+
+    .btn {
+        padding: 3rem 0rem 3rem 0rem;
+        width: 39rem;
+    }
+
+    .buy_btn {
+        width: 4rem;
+    }
+
+    .addingtobag {
+        font-size: 2.5rem;
+    }
+
+    .N399K {
+        font-size: 2.5rem;
+    }
+
+    .Specslogo {
+        margin: 4rem 0rem 0rem -15rem;
+    }
+
+    .features {
+        margin: 14rem 0rem 0rem 39rem;
+        /* gap: 5rem; */
+    }
+
+    .specsImage {
+        margin: -65rem 0rem 0rem 43rem;
+    }
+
+    .caseimg {
+        margin: 1rem 0rem 0rem -10rem;
+    }
+
+    .caseimage {
+        margin: 5rem 0rem 0rem 3rem;
+        /* width: 31rem; */
+    }
+
+    .casedescribe {
+        margin: 21rem 0rem 0rem 42rem;
+    }
+
+    .buynowsection {
+        margin: 49rem 15rem 0rem 9rem;
+    }
+
+    .chooselogo {
+        margin: 13rem 0rem 13rem 9rem;
+    }
+
+    .choice {
+        /* width: 82rem; */
+        margin: 0rem 0rem 0rem 7rem;
+    }
+
+    .subscribetoemailinput {
+        margin: -55rem 0rem 0rem 5rem;
+    }
+
+    .subscribebtn {
+        margin: -55rem 0rem 0rem 45rem;
+    }
+
+    .sendemailarrow {
+        /* width: 3.3rem; */
+        margin: -52.5rem 0rem 0rem 47rem;
+    }
+
+    .productlist {
+        margin-left: 25rem;
+    }
+
+    .supportlist {
+        margin-left: 59rem;
+    }
+
+    .iconlist {
+        /* flex-direction: row; */
+        margin: 14rem 0rem 0rem 8rem;
+    }
+
+    .bottomuparrow {
+        margin: 35rem 0rem 0rem 32rem;
+    }
+
+}
+
+@media(min-width : 320px) and (max-width:375px) {
+    body{
+        overflow-x: hidden;
+    }
+    .mainlogo {
+
+        margin: 3rem 0rem 0rem 38rem;
+        position: absolute;
+
+    }
+
+    .menulist {
+        margin: 7rem 0rem 0rem 3rem;
+    }
+
+    .mid_sec {
+        gap: 2rem;
+        margin: 33rem 0rem 0rem 2rem;
+    }
+
+    .one-ear {
+
+        width: 35rem;
+        margin: -26rem 0rem 0rem -1rem;
+
+    }
+
+    .upperheadset {
+        margin: 34rem 0rem 0rem 52rem;
+        width: 24rem;
+    }
+
+    .beats3 {
+        font-size: 6rem;
+        margin: 35rem 0rem 0rem 0rem;
+    }
+
+    .overview {
+        font-size: 4rem;
+    }
+
+    .description {
+        font-size: 3rem;
+        /* background: red; */
+        width: 56rem;
+        line-height: 4.5rem;
+    }
+
+    .upperheadset {
+        margin: 28rem 0rem 0rem 57rem;
+
+    }
+
+    .social {
+        margin: 41rem 0rem 0rem -1rem;
+        width: 82rem;
+    }
+
+    .Specslogo {
+        margin: 2rem 0rem 0rem -23rem;
+    }
+
+    .features {
+        margin: 3rem 0rem 0rem 36rem;
+        /* gap: 5rem; */
+    }
+
+    .specsImage {
+        margin: -65rem 0rem 0rem 37rem;
+        width: 36rem;
+    }
+
+    .caseimg {
+        margin: 0rem 0rem 0rem -18rem;
+
+    }
+
+    .caseimage {
+        margin: 6rem 0rem 0rem 1rem;
+        width: 27rem;
+    }
+
+    .casedescribe {
+        margin: 21rem 0rem 0rem 32rem;
+    }
+
+    .buynowsection {
+        margin: 55rem 15rem 0rem 1.99rem;
+    }
+
+    .chooselogo {
+        margin: 13rem 0rem 13rem 5rem;
+    }
+
+    .subscribetoemailinput {
+        margin: -55rem 0rem 0rem 0rem;
+    }
+
+    .subscribebtn {
+        margin: -55rem 0rem 0rem 40rem;
+
+    }
+
+    .sendemailarrow {
+        margin: -52.5rem 0rem 0rem 42rem;
+
+    }
+
+    .choice {
+        margin: 0rem 0rem 0rem 0rem;
+    }
+
+    .botombeatslogo>imag {
+        margin: 9rem 0rem 0rem 0rem;
+    }
+
+    .productlist {
+        margin: 8rem 0rem 0rem 16rem;
+    }
+
+    .supportlist {
+        margin: 8rem 0rem 0rem 48rem;
+    }
+
+    .iconlist {
+        margin: 14rem 0rem 0rem 3rem;
+    }
+
+    .bottomuparrow {
+        margin: 27rem 0rem 0rem 26rem;
+
+    }
+}
